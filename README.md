@@ -1,67 +1,60 @@
-# 🚀 QuickBlog – AI-Powered Full Stack Blog Platform
+# 🚀 QuickBlog – AI Powered Full Stack Blog Platform
 
-QuickBlog is a full stack blog system built with the MERN stack. Admins post blogs, manage comments, and upload images. The UI stays clean and responsive. The project includes protected routes, token based login, and smooth content management.
+QuickBlog is a full stack blog system built with the MERN stack. Admins post blogs, manage comments, and upload images. The UI stays simple and responsive. The project includes protected routes, token based login, and structured content management.
 
----
+# ✨ Features
 
-## ✨ Features
+🤖 AI generated blog content using Google Gemini API
 
-- 🧠 AI-Powered Blog Generation using Google Gemini API
-- 🖼️ Optimized blog image uploads and CDN delivery via ImageKit
-- 🧑‍💼 Admin Dashboard for blog and comment management (CRUD)
-- 🔐 Secure authentication using JWT and protected admin routes
-- 📱 Responsive design using Tailwind CSS and Framer Motion
-- 🌐 Fully deployed on Vercel
+🖼️ Image upload and CDN delivery using ImageKit
 
----
+🛠️ Admin dashboard with blog and comment management
 
-## 🧰 Tech Stack
+🔐 JWT based authentication with protected routes
 
-**Frontend:** React.js, Tailwind CSS, Framer Motion, React Router DOM, React Quill, Marked  
-**Backend:** Node.js, Express.js, MongoDB  
-**APIs & Tools:** Google Gemini API, ImageKit, JWT, Multer, Axios, CORS  
-**Deployment:** Vercel
+📱 Responsive design using Tailwind CSS and Framer Motion
 
----
+🌍 Deployed on Vercel
 
-## 🚀 Live Demo
+# 🧰 Tech Stack
 
-🔗 [QuickBlog](https://quick-blog-six-lac.vercel.app/)
+Frontend: React.js, Tailwind CSS, Framer Motion, React Router DOM, React Quill, Marked
+Backend: Node.js, Express.js, MongoDB
+APIs and Tools: Google Gemini API, ImageKit, JWT, Multer, Axios, CORS
+Deployment: Vercel
 
----
+# 🚀 Live Demo
 
-## 🛠️ Installation & Setup
+🔗 https://quick-blog-six-lac.vercel.app/
 
-```bash
-# Clone the repository
-git clone https://github.com/abhirajput-19/quickblog.git
+# 📦 Installation and Setup
 
-# Go into the client folder
-cd quickblog/client/
+## Clone the repository
+```
+git clone https://github.com/mounika-2510/Quick-Blog.git
+```
+
+## Go into the client folder
+```
+cd Quick-Blog/client
 npm install
 npm run dev
-
-# Go into the server folder
-cd quickblog/server/
+```
+## Go into the server folder
+```
+cd ../server
 npm install
 npm run server
 ```
-> ⚠️ **Note:** This project uses environment variables for both the client and server.  
-Please make sure to create `.env` files in both folders with the following keys:
-
----
+Create .env files in both folders before running the project.
 
 ## 🔐 Frontend Environment Variables (/client/.env)
-
-```env
-VITE_BASE_URL ="http://localhost:3000"
+```
+VITE_BASE_URL="http://localhost:3000"
 ```
 
----
-
 ## 🔐 Backend Environment Variables (/server/.env)
-
-```env
+```
 PORT=3000
 JWT_SECRET=[your_jwt_secret_key]
 ADMIN_EMAIL=[your_admin_email]
@@ -72,20 +65,7 @@ IMAGEKIT_PRIVATE_KEY=[your_imagekit_private_key]
 IMAGEKIT_URL_ENDPOINT=[your_imagekit_url_endpoint]
 GEMINI_API_KEY=[your_google_gemini_api_key]
 ```
+## 🧑‍💼 Admin Credentials
 
----
-
-
-## 🙋 Author
-### Mounika
-- [LinkedIn](https://www.linkedin.com/in/vemulamounika1025/) 
-- [GitHub](https://github.com/mounika-2510/)
-
-
-
-
-
-
-
-
-
+- Email: admin@gmail.com
+- Password: 123456

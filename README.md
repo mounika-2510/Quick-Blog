@@ -65,7 +65,3 @@ IMAGEKIT_PRIVATE_KEY=[your_imagekit_private_key]
 IMAGEKIT_URL_ENDPOINT=[your_imagekit_url_endpoint]
 GEMINI_API_KEY=[your_google_gemini_api_key]
 ```
-## 🧑‍💼 Admin Credentials
-
-- Email: admin@gmail.com
-- Password: 123456
